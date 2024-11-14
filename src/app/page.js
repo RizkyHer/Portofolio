@@ -23,7 +23,7 @@ export default function Home() {
           Web Developer & Fullstack Developer
         </p>
         <Link href="/projects">
-        <button className="mt-8 px-6 py-3 bg-white text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-100">
+        <button className="mt-8 px-6 py-3 bg-white text-gray-800 font-semibold rounded-lg shadow-md hover:bg-blue-200 hover:scale-110 hover:text-gray-900">
           View My Work
         </button>
         </Link>
