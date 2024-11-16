@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar/Navbar";
+import Projects from "@/components/projects/projects";
 
 export default function Home() {
   const text = "Hi, I'm Rizky Herdiansyah";
@@ -28,6 +29,8 @@ export default function Home() {
         </button>
         </Link>
       </div>
+      <Projects id='projects' />
+
     </>
   );
 }
