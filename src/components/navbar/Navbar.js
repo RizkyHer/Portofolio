@@ -109,10 +109,10 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/About">
+                  <Link href="/about">
                     <h1
                       className={`${
-                        pathname === "/About"
+                        pathname === "/about"
                           ? "text-teal-300 bg-black/10 px-3 py-1 rounded-md"
                           : "text-black"
                       } hover:text-teal-300`}
@@ -179,10 +179,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/About">
+              <Link href="/about">
                 <h1
                   className={`${
-                    pathname === "/About"
+                    pathname === "/about"
                       ? "text-teal-300 bg-white/20 px-3 py-1 rounded-md"
                       : "text-white"
                   } hover:text-teal-300`}
